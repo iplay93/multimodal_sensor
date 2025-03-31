@@ -73,8 +73,12 @@ checkpoints/model_fold_{fold_number}.pth
 ```
 These can be used for inference or fine-tuning.
 
-
 ## Notes
 - Adjust `input_dim` based on the number of features in the input data.
 - Modify `num_classes` to match the number of classification categories.
 - The model runs on GPU if available; otherwise, it falls back to CPU.
+
+## Future Improvements
+- Experiment with different Transformer hyperparameters.
+- Implement early stopping for better generalization.
+- Extend support for additional sensor modalities.
