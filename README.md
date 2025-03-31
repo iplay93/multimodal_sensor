@@ -5,7 +5,7 @@ This project implements a Transformer-based classifier for multimodal time-serie
 
 ## Features
 - Transformer-based classifier with attention extraction
-- Multimodal data processing (EEG, IMU, PPG)
+- Multimodal sensor data processing (EEG, IMU, PPG)
 - Five-fold cross-validation setup
 - Training and evaluation pipeline
 - Attention map visualization
