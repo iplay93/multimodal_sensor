@@ -26,7 +26,7 @@ multimodal_sensor/
 ├── model_design/testmodel.py   # Main script for testing
 ├── model_design/analysis/      # Stores analysis results (e.g. confusion matrix, etc.)
 ├── model_design/checkpoints/   # Stores trained model checkpoints
-├── preprocessing/dataLoader.py # Data Acquisition & Data Preprocessing  
+├── preprocessing/dataLoader.py # Data acquisition & Data preprocessing  
 ├── README.md                   # Project documentation
 ```
 
