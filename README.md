@@ -28,6 +28,7 @@ multimodal_sensor/
 ├── model_design/checkpoints/   # Stores trained model checkpoints
 ├── preprocessing/dataLoader.py # Data Acquisition & Data Preprocessing  
 ├── README.md                   # Project documentation
+```
 
 ## Model Architecture
 The Transformer-based classifier consists of:
