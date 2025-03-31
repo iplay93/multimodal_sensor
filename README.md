@@ -9,3 +9,9 @@ This project implements a Transformer-based classifier for multimodal time-serie
 - Five-fold cross-validation setup
 - Training and evaluation pipeline
 - Attention map visualization
+
+## Requirements
+Ensure the following libraries are installed:
+```bash
+pip install numpy torch scikit-learn matplotlib seaborn shap
+```
