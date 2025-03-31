@@ -28,3 +28,10 @@ multimodal_sensor/
 ├── model_design/checkpoints/   # Stores trained model checkpoints
 ├── preprocessing/dataLoader.py # Data Acquisition & Data Preprocessing  
 ├── README.md                   # Project documentation
+
+## Model Architecture
+The Transformer-based classifier consists of:
+- An embedding layer to project input features into `d_model` dimensions.
+- Transformer encoder layers with multi-head self-attention.
+- A fully connected layer for classification.
+- Optional attention extraction for interpretability.
