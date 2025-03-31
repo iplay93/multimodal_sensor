@@ -65,3 +65,10 @@ The script computes:
 - **Classification report** using precision, recall, and F1-score.
 - **Confusion matrix** to analyze misclassifications.
 - **ROC AUC Score** to assess model performance.
+
+## Checkpoints
+Trained models are saved in `checkpoints/` as:
+```
+checkpoints/model_fold_{fold_number}.pth
+```
+These can be used for inference or fine-tuning.
