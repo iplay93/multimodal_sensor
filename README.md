@@ -46,3 +46,16 @@ Each sample consists of:
 ```python
 (eeg_array, imu_array, ppg_array, label)
 ```
+
+## Training
+Run the training script with:
+```bash
+python trainmodel.py
+```
+This will:
+- Train the model on each fold
+- Save trained checkpoints
+- Generate attention maps for interpretability
+
+## Attention Map Visualization
+The script automatically saves attention maps in `analysis/`. These maps help understand which input features contribute most to the classification.
