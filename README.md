@@ -51,7 +51,7 @@ Each sample consists of:
 ## Training
 Run the training script with:
 ```bash
-python trainmodel.py
+python trainModel.py
 ```
 This will:
 - Train the model on each fold
