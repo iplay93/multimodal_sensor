@@ -40,3 +40,8 @@ The Transformer-based classifier consists of:
 Data is stored in `.npy` format inside `data/cross_val_splits/`. Each fold directory contains:
 - `train.npy`: Training data
 - `val.npy`: Test data
+
+Each sample consists of:
+```python
+(eeg_array, imu_array, ppg_array, label)
+```
