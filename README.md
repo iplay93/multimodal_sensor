@@ -35,3 +35,8 @@ The Transformer-based classifier consists of:
 - Transformer encoder layers with multi-head self-attention.
 - A fully connected layer for classification.
 - Optional attention extraction for interpretability.
+
+## Data Preparation
+Data is stored in `.npy` format inside `data/cross_val_splits/`. Each fold directory contains:
+- `train.npy`: Training data
+- `val.npy`: Test data
