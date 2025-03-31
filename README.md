@@ -59,3 +59,9 @@ This will:
 
 ## Attention Map Visualization
 The script automatically saves attention maps in `analysis/`. These maps help understand which input features contribute most to the classification.
+
+## Model Evaluation
+The script computes:
+- **Classification report** using precision, recall, and F1-score.
+- **Confusion matrix** to analyze misclassifications.
+- **ROC AUC Score** to assess model performance.
