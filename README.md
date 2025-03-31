@@ -21,12 +21,13 @@ pip install numpy torch scikit-learn matplotlib seaborn shap
 multimodal_sensor/
 ├── data/cross_val_splits/      # Folder containing cross-validation data splits
 ├── data/label_dict/            # Folder containing original data
-├── feature_extraction/         # Extracts important feature for each signals(not use in this)
-├── model_design/trainmodel.py  # Main script for training
-├── model_design/testmodel.py   # Main script for testing
-├── model_design/analysis/      # Stores analysis results (e.g. confusion matrix, etc.)
-├── model_design/checkpoints/   # Stores trained model checkpoints
 ├── preprocessing/dataLoader.py # Data acquisition & Data preprocessing  
+├── feature_extraction/         # Extracts important feature for each signals(not use in this)
+├── model_design/model.py       # Designs a Transformer-based model
+├── analysis/                   # Stores analysis results (e.g. confusion matrix, etc.)
+├── checkpoints/                # Stores trained model checkpoints
+├── trainModel.py               # Main script for training
+├── testModel.py                # Main script for testing
 ├── README.md                   # Project documentation
 ```
 
